@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageRecognition_0529_01", "ImageRecognition_0529_01\ImageRecognition_0529_01.vcxproj", "{777B583B-29DD-420F-A54F-726EF1C38E70}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageRecognition_0529_02", "ImageRecognition_0529_02\ImageRecognition_0529_02.vcxproj", "{BFB79625-2935-447E-99DA-2C4376284E0E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageRecognition_0529_03", "ImageRecognition_0529_03\ImageRecognition_0529_03.vcxproj", "{19FC3A41-4C3C-4205-B6F9-6A005658A6F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Imagerecognition_0529_04", "Imagerecognition_0529_04\Imagerecognition_0529_04.vcxproj", "{88E94ECC-7D3F-469D-A681-2D86B8FF5B57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Imagerec_0529_05", "Imagerec_0529_05\Imagerec_0529_05.vcxproj", "{9FD59512-00DF-4C9B-A2C5-4F896D642EC8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Imagerec_0529_07", "Imagerec_0529_07\Imagerec_0529_07.vcxproj", "{2D433517-F0FD-4F2B-BDD5-B570FE708E99}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Imagerec_0529_06", "Imagerec_0529_06\Imagerec_0529_06.vcxproj", "{EBA7F87E-9791-4F79-BEB7-579C117EE376}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{777B583B-29DD-420F-A54F-726EF1C38E70}.Debug|Win32.ActiveCfg = Debug|x64
+		{777B583B-29DD-420F-A54F-726EF1C38E70}.Debug|Win32.Build.0 = Debug|x64
+		{777B583B-29DD-420F-A54F-726EF1C38E70}.Release|Win32.ActiveCfg = Release|Win32
+		{777B583B-29DD-420F-A54F-726EF1C38E70}.Release|Win32.Build.0 = Release|Win32
+		{BFB79625-2935-447E-99DA-2C4376284E0E}.Debug|Win32.ActiveCfg = Debug|x64
+		{BFB79625-2935-447E-99DA-2C4376284E0E}.Debug|Win32.Build.0 = Debug|x64
+		{BFB79625-2935-447E-99DA-2C4376284E0E}.Release|Win32.ActiveCfg = Release|Win32
+		{BFB79625-2935-447E-99DA-2C4376284E0E}.Release|Win32.Build.0 = Release|Win32
+		{19FC3A41-4C3C-4205-B6F9-6A005658A6F8}.Debug|Win32.ActiveCfg = Debug|x64
+		{19FC3A41-4C3C-4205-B6F9-6A005658A6F8}.Debug|Win32.Build.0 = Debug|x64
+		{19FC3A41-4C3C-4205-B6F9-6A005658A6F8}.Release|Win32.ActiveCfg = Release|Win32
+		{19FC3A41-4C3C-4205-B6F9-6A005658A6F8}.Release|Win32.Build.0 = Release|Win32
+		{88E94ECC-7D3F-469D-A681-2D86B8FF5B57}.Debug|Win32.ActiveCfg = Debug|x64
+		{88E94ECC-7D3F-469D-A681-2D86B8FF5B57}.Debug|Win32.Build.0 = Debug|x64
+		{88E94ECC-7D3F-469D-A681-2D86B8FF5B57}.Release|Win32.ActiveCfg = Release|Win32
+		{88E94ECC-7D3F-469D-A681-2D86B8FF5B57}.Release|Win32.Build.0 = Release|Win32
+		{9FD59512-00DF-4C9B-A2C5-4F896D642EC8}.Debug|Win32.ActiveCfg = Debug|x64
+		{9FD59512-00DF-4C9B-A2C5-4F896D642EC8}.Debug|Win32.Build.0 = Debug|x64
+		{9FD59512-00DF-4C9B-A2C5-4F896D642EC8}.Release|Win32.ActiveCfg = Release|Win32
+		{9FD59512-00DF-4C9B-A2C5-4F896D642EC8}.Release|Win32.Build.0 = Release|Win32
+		{2D433517-F0FD-4F2B-BDD5-B570FE708E99}.Debug|Win32.ActiveCfg = Debug|x64
+		{2D433517-F0FD-4F2B-BDD5-B570FE708E99}.Debug|Win32.Build.0 = Debug|x64
+		{2D433517-F0FD-4F2B-BDD5-B570FE708E99}.Release|Win32.ActiveCfg = Release|Win32
+		{2D433517-F0FD-4F2B-BDD5-B570FE708E99}.Release|Win32.Build.0 = Release|Win32
+		{EBA7F87E-9791-4F79-BEB7-579C117EE376}.Debug|Win32.ActiveCfg = Debug|x64
+		{EBA7F87E-9791-4F79-BEB7-579C117EE376}.Debug|Win32.Build.0 = Debug|x64
+		{EBA7F87E-9791-4F79-BEB7-579C117EE376}.Release|Win32.ActiveCfg = Release|Win32
+		{EBA7F87E-9791-4F79-BEB7-579C117EE376}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
