@@ -1,0 +1,10 @@
+﻿2015/05/10 12:13:44 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\HisatakaSuzuki\documents\visual studio 2012\Projects\ImageRecognition_0508\ImageRecognition_0508_05\ImageRecognition_0508_05.vcxproj" (ClCompile ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main05.cpp
+         main05.cpp
+     1>プロジェクト "C:\Users\HisatakaSuzuki\documents\visual studio 2012\Projects\ImageRecognition_0508\ImageRecognition_0508_05\ImageRecognition_0508_05.vcxproj" (ClCompile ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:02.09
