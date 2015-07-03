@@ -1,0 +1,32 @@
+0 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,10,coinimggray.rows/10,200,50);
+1 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,10,coinimggray.rows/5,200,50);
+2 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/5,200,50);
+3 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/5,170,50);
+4 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/5,220,50);
+5 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/5,220,100);
+6 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,10,coinimggray.rows/2,220,100);
+7 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,10,coinimggray.rows/4,220,100);
+8 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/4,220,100);
+
+
+0 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,10,coinimggray.rows/10,200,50);
+9 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/10,200,50);
+
+9 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/10,200,50);
+10 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/10,200,100);
+
+10 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/10,200,100);
+11 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/4,200,100);
+
+11 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/4,200,100);
+12 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/4,200,10);
+
+11 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/4,200,100);
+13 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/4,220,100);
+
+14 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,2,coinimggray.rows/4,150,100);
+15 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,10,coinimggray.rows/4,150,100);
+17 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,10,coinimggray.rows/4,200,100);
+
+
+16 : cv::HoughCircles(coinimggray,circles,CV_HOUGH_GRADIENT,5,coinimggray.rows/4,150,100);
