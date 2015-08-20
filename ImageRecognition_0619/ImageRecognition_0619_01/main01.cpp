@@ -2,7 +2,9 @@
 #include <opencv2\opencv.hpp>
 #include "Timer.h"
 
-cv::Mat sadTemplate(cv::InputArray tar, cv::InputArray tmp, cv::OutputArray res, int *minx, int *miny);
+//関数のプロトタイプ宣言
+void sadTemplate(cv::InputArray tar, cv::InputArray tmp, cv::OutputArray res, int *minx, int *miny);
+
 int main(int argc, const char * argv[]){
 	cv::Mat tarimg = cv::imread("Dice.png");	//target画像ファイルの読み込み
 	if (tarimg.empty())	//ファイルの読み込み失敗
@@ -16,9 +18,7 @@ int main(int argc, const char * argv[]){
 		std::cout << "tmpファイルの読み込みに失敗しました" << std::endl;
 		return -1;
 	}
-	//結果画像のサイズを計算
-	int resrow = tarimg.rows - tmpimg.rows+1;
-	int rescol = tarimg.cols - tmpimg.cols+1;
+	
 	//2値画像化
     cv::Mat targray;
     //RGB画像をグレースケール化
@@ -28,39 +28,38 @@ int main(int argc, const char * argv[]){
     //RGB画像をグレースケール化
 	cv::cvtColor(tmpimg,tmpgray,CV_BGR2GRAY);
 
-
+	//結果画像のサイズを計算
+	int resrow = tarimg.rows - tmpimg.rows+1;
+	int rescol = tarimg.cols - tmpimg.cols+1;
 	cv::Mat resimg(resrow,rescol,CV_8UC1);	//マッチングの結果を保持する
 	int minx, miny;	//点の位置を描画用に格納する
 	
 	//テンプレートマッチング
-	Timer tm;
-	resimg = sadTemplate(targray,tmpgray,resimg,&minx,&miny);
-	double time = tm.elapsed();
+	Timer tm;	//処理時間計測用
+	sadTemplate(targray,tmpgray,resimg,&minx,&miny);	//マッチング関数
+	double time = tm.elapsed();	//処理時間ストップ
 	std::cout << "経過時間は" << time << "かかりました。\n";
 
 	//矩形描画
 	cv::rectangle(tarimg,cv::Point(minx,miny),cv::Point(minx+tmpimg.rows,miny+tmpimg.cols),cv::Scalar(0,0,255),1,4);
-	cv::namedWindow("image");	//ウィンドウの生成
-	cv::imshow("image", tarimg);	//画像の描画
-	cv::waitKey();	//キーが押されるまで待つ
 
 	//画像の保存
 	if(cv::imwrite("result.png", tarimg) == false){	//保存の成否判定
 		std::cout << "ファイルの保存に失敗" << std::endl;
 		return -1;
 	}
+
 	return 0;
 }
 
-
-cv::Mat sadTemplate(cv::InputArray tar, cv::InputArray tmp, cv::OutputArray res, int *minx, int *miny){
+void sadTemplate(cv::InputArray tar, cv::InputArray tmp, cv::OutputArray res, int *minx, int *miny){
 	//引数の入力をMatとして受け取る
 	cv::Mat tarM = tar.getMat();	
 	cv::Mat tmpM = tmp.getMat();
 	cv::Mat resM = res.getMat();
 
-	//sadが最小値のところがマッチングしたい箇所
-	int minsad = std::numeric_limits<int>::max();
+	//sadが最小値のところがマッチングしたい箇所なので
+	int minsad = std::numeric_limits<int>::max();	
 	int sad = 0;  //各回のsadを格納
 	int diff;	//sadに加算する前の作業変数
 	int tarx,tary;	//目的のxy座標
@@ -104,6 +103,5 @@ cv::Mat sadTemplate(cv::InputArray tar, cv::InputArray tmp, cv::OutputArray res,
 	std::cout << "最小点＝[" << tarx << ", " << tary << "]" <<  std::endl;
 	*minx = tarx;
 	*miny = tary;
-	return resM;
 }
 

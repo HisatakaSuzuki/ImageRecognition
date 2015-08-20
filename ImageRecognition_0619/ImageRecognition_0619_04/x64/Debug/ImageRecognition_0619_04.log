@@ -1,4 +1,4 @@
-﻿2015/07/01 20:43:20 にビルドを開始しました。
+﻿2015/07/06 15:21:28 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Users\HisatakaSuzuki\Documents\GitHub\ImageRecognition\ImageRecognition_0619\ImageRecognition_0619_04\ImageRecognition_0619_04.vcxproj" (Build ターゲット)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt main04.cpp
@@ -10,4 +10,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:01.99
+経過時間 00:00:02.59

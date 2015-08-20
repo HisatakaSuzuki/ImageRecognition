@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageRecognition_0726_01", "ImageRecognition_0726_01\ImageRecognition_0726_01.vcxproj", "{C4CACACA-BE19-408F-A49A-AEEB4C781E97}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageRecognition_0726_02", "ImageRecognition_0726_02\ImageRecognition_0726_02.vcxproj", "{A89612C7-536C-4487-9B4E-1AEDA4B060DF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageRecognition_0726_03", "ImageRecognition_0726_03\ImageRecognition_0726_03.vcxproj", "{0919DFAA-A437-4270-954A-DFA996DF7940}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4CACACA-BE19-408F-A49A-AEEB4C781E97}.Debug|Win32.ActiveCfg = Debug|x64
+		{C4CACACA-BE19-408F-A49A-AEEB4C781E97}.Debug|Win32.Build.0 = Debug|x64
+		{C4CACACA-BE19-408F-A49A-AEEB4C781E97}.Release|Win32.ActiveCfg = Release|Win32
+		{C4CACACA-BE19-408F-A49A-AEEB4C781E97}.Release|Win32.Build.0 = Release|Win32
+		{A89612C7-536C-4487-9B4E-1AEDA4B060DF}.Debug|Win32.ActiveCfg = Debug|x64
+		{A89612C7-536C-4487-9B4E-1AEDA4B060DF}.Debug|Win32.Build.0 = Debug|x64
+		{A89612C7-536C-4487-9B4E-1AEDA4B060DF}.Release|Win32.ActiveCfg = Release|Win32
+		{A89612C7-536C-4487-9B4E-1AEDA4B060DF}.Release|Win32.Build.0 = Release|Win32
+		{0919DFAA-A437-4270-954A-DFA996DF7940}.Debug|Win32.ActiveCfg = Debug|x64
+		{0919DFAA-A437-4270-954A-DFA996DF7940}.Debug|Win32.Build.0 = Debug|x64
+		{0919DFAA-A437-4270-954A-DFA996DF7940}.Release|Win32.ActiveCfg = Release|Win32
+		{0919DFAA-A437-4270-954A-DFA996DF7940}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
